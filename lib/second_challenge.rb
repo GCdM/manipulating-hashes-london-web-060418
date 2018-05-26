@@ -12,6 +12,4 @@ def second_challenge
     allfood << food.flatten
   end
   return allfood
-  
-
 end
