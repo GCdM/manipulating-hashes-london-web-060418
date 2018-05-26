@@ -7,8 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.collect do |food|
-    
+  allfood = []
+  groceries.collect do |type, food|
+    allfood << food.flatten
   end
   
 
