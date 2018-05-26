@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each do |name, info|
-    info[:favorite_icecream_flavors].delete_if(this.include?("strawberry"))
+    info[:favorite_icecream_flavors].delete_if(info[:favorite_icecream_flavors].include?("strawberry"))
   end
 
   #remember to return your newly altered contacts hash!
