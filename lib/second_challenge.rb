@@ -9,7 +9,7 @@ def second_challenge
   #code your solution here!
   allfood = []
   groceries.collect do |type, food|
-    allfood << food.flatten
+    allfood << food
   end
-  return allfood
+  return allfood.flatten!
 end
