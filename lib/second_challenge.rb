@@ -11,6 +11,7 @@ def second_challenge
   groceries.collect do |type, food|
     allfood << food.flatten
   end
+  return allfood
   
 
 end
